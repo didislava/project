@@ -1,0 +1,117 @@
+body {
+    width: 1440px;
+    color: #000000;
+    background-color: pink;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*________HEADER________*/
+
+.header-container {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0 auto ;
+    display: flex; 
+    align-items: center;
+    background-color: #DFF1FF;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    stroke: #000000;
+    color: black;
+}
+
+.header-menu-list{
+    display: flex;
+    gap: 30px;
+    color:#2e2f42;
+
+    padding: 24px 40px 24px 512px;
+}
+
+.header-menu-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.header-menu-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: black;
+}
+
+.plus-icon {
+    stroke: #000000;
+    color: #000000;
+}
+
+.arrow-icon {
+    stroke: #000000;
+    color: #000000;
+}
+
+/*________HERO________*/
+
+.hero-container {
+    padding: 37px 40px;
+    margin: 0 auto;
+    background-color: #DFF1FF;
+    display: flex;
+}
+
+.vector-icon {
+    stroke: #fff;
+}
+
+.hero-title {
+    padding: 273px 70px;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 128%;
+    color: #000;
+    width: 540px;
+}
+
+.main-page-img {
+    padding-top: 150px;
+}
