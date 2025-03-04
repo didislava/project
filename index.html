@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-container container">
+        <div class="header-container">
             <nav class="header-navigation">
                 <a class="logo" href="./index.html">
                     <svg class="logo-icon" width="128" height="32">
@@ -75,14 +75,16 @@
         </div>
     </header>
     <main class="main">
+        <!--The sections size are different & aling is not centered-->
         <section class="hero">
-            <div class="hero-container container">
+            <div class="hero-container">
                 <!--<svg class="vector-icon" width="900" height="900">
                     <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
-                не відображається--> 
+                doesn't display--> 
 
                 <ul class="breadcrumb">
+                    <!--svg don't display. ???-->
                     <li class="breadcrumb-item">
                         <a class="breadcrumb-link" href="">
                             <span class="breadcrumb-text">Onix</span>
@@ -112,17 +114,235 @@
                     
                   </ul>
 
-                <h1 class="hero-title">Cost Comparison Platform to Help Weigh
+                <h1 class="hero-title title">Cost Comparison Platform to Help Weigh
                     Up Municipalities in Switzerland
                 </h1>
                 <img src="./images/main-page-img.png" width="670" height="500" alt="Main page picture" class="main-page-img">
 
-
-                <h1>test!!!!</h1>
             </div>
         </section>
-    </main>
+        <section class="description">
+            <div class="description-container container">
+                <div class="description-first-block">
+                    <h1 class="description-title title">
+                        How Onix developed a unique Swiss comparison platform that helps 
+                        users make informed decisions on the biggest cost positions in Switzerland.
+                    </h1>
+                    <p class="description-text text">This cost of living estimator in Switzerland is designed 
+                        to help users make informed decisions on Switzerland's most significant 
+                        cost positions, including taxes, health insurance, average rents, and electricity 
+                        prices by comparing them in one place.
+                    </p>
+                </div>
 
-    
+                <div class="description-second-block">
+                    
+                    <li class="description-item">
+                        <h2 class="description-item-title title">
+                            Financial services
+                        </h2>
+                        <p class="description-item-text text">
+                            Industry
+                        </p>
+                    </li>
+
+                    <li class="description-item">
+                        <h2 class="description-item-title title">
+                            9 specialists
+                        </h2>
+                        <p class="description-item-text text">
+                            Team size
+                        </p>
+                    </li>
+
+                    <!--<div class="grid-line"></div>
+                    This line destroys the hole grid-->
+
+                    <li class="description-item">
+                        <h2 class="description-item-title title">
+                            Switzerland
+                        </h2>
+                        <p class="description-item-text text">
+                            Location
+                        </p>
+                    </li>
+
+                    <li class="description-item">
+                        <h2 class="description-item-title title">
+                            5 months
+                        </h2>
+                        <p class="description-item-text text">
+                            Project duration
+                        </p>
+                    </li>
+
+                </div>
+            </div>
+        </section>
+        <section class="business-context">
+            <div class="business-context-container container">
+                <p class="business-context-pretitle text">[ Business Context ]</p>
+                <h1 class="business-context-title title">
+                    Due to the decentralization and small size of the country, 
+                    it is difficult to compare the cost of living amongst different 
+                    cities before one moves within the country or when immigrating into it.
+                </h1>
+                <div class="business-context-content">
+                    <li class="business-context-text text">
+                        People would have to check local tax calculators of 
+                        different cantons, calculate their health insurance premium, 
+                        and check other factors in many different places on the web 
+                        for every place they consider moving to. It is already a 
+                        burden for locals but especially complicated for people 
+                        who are not familiar with the whole system. 
+                        <br><br>
+                        Therefore, our client reached out Onix to create a web 
+                        app that focuses on these potential users to provide them 
+                        with detailed cost figures before they move.
+                    </li>
+
+                    <li class="business-context-text text">
+                        We were requested to build a digital platform that offers 
+                        unbiased and objective information about the Swiss taxation 
+                        and insurance systems. Whether users are planning to move 
+                        to Switzerland, living there, or are simply curious, this 
+                        calculator has it all covered. 
+                        <br><br>
+                        The website is committed to 
+                        providing their users with the most comprehensive and 
+                        accurate information possible. The client recognizes that 
+                        navigating through Swiss taxation and insurance policies 
+                        can be overwhelming, which is why the platform idea appeared.
+                    </li>
+                </div>
+            </div>
+        </section>
+        <section class="product-scope">
+            <div class="product-scope-container container">
+                <div class="product-scope-first">
+                    <h1 class="product-scope-first-title title">
+                        The Onix team needed to:
+                    </h1>
+                    <p class="product-scope-first-text text">
+                        Setting up effective management and transparent development process <br><br>
+                        Assessing the requirements to meet project objectives <br><br>
+                        Creating new functionality with the calculator <br><br>
+                        Making a platform design to make it feel and look enjoyable <br><br>
+                        Developing a truly intuitive cost comparison platform
+                    </p>
+                </div>
+
+                <div class="product-scope-second">
+                    <h1 class="product-scope-second-title title">
+                        Ready to modernize your fintech business 
+                        by leveraging best-in-class technologies?
+                    </h1>
+
+                    <button type="button" class="product-scope-button">                        
+                        <span class="product-scope-button-text">contact us</span>
+                        <svg class="icon-plus-right" width="21" height="20">
+                            <use href="./images/icons.svg#icon-ic_go"></use>
+                        </svg>
+                        <!--svg is white, must be blue-->
+                    </button>
+                </div>
+            </div>
+        </section>      
+        <section class="solutions">
+            <!--part with pict on the left is strange. Why???-->
+            <div class="solutions-container container">
+                <h1 class="solutions-title title">
+                    Our Solutions
+                </h1>
+                <p class="solutions-text1 text">
+                    Developing functionality for a cost comparison calculator 
+                    required a detailed understanding of the specific types 
+                    of data that needed to be collected and compared. 
+                    Onix together with our client have worked closely 
+                    to determine which factors and data sets are most 
+                    relevant for their users, such as average rents, 
+                    healthcare costs, and taxes in different municipalities, 
+                    as well as collecting and integrating this data into the 
+                    calculator.
+                </p>
+                <p class="solutions-text2 text">
+                    After determining the types of data they would incorporate, 
+                    Onix developers started building the calculator. 
+                    This involved utilizing web development technologies 
+                    like HTML, CSS, and PHP Laravel as Back-end server language.
+                    <br><br>
+                    Once the platform was coded, it underwent rigorous testing 
+                    and iterations to ensure that it was intuitive and user-friendly. 
+                    Our developers closely monitored the user experience and used
+                        feedback to refine and improve the calculator's functionality
+                        continually.
+                </p>
+                <h2 class="solutions-second-title">
+                    Summing up all our work for this project, these are our leading solutions:
+                </h2>
+                <div class="solution-items">
+                    <div class="solution-text-block">
+                        <h3 class="solutions-subtitle subtitle">
+                            Data collection
+                        </h3>
+                        <p class="solutions-text text">
+                            We added data collection functionality which includes gathering user's 
+                            financial and personal details.
+                            <br><br>
+                            The calculator involves such data as tax rates, health insurance rates, 
+                            electricity prices, and average rent prices in particular places of residence.
+                        </p>
+                    </div>
+                    <img src="./images/solution_img1.png" width="850" height="760" alt="solution_img1" class="solution_img">    
+                </div>
+
+                <div class="solution-items">
+                    <img src="./images/solution_img2.png" width="850" height="760" alt="solution_img2" class="solution_img">    
+                    <div class="solution-text-block">
+                        <h3 class="solutions-subtitle subtitle">
+                            Internal calculation mechanisms
+                        </h3>
+                        <p class="solutions-text text">
+                            We created complex algorithms to calculate the costs associated with 
+                            the different factors being compared.
+                            <br><br>
+                            This involved developing an intuitive formula to adjust for factors 
+                            such as inflation, taxes, and other expenses.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="solution-items">
+                    <div class="solution-text-block">
+                        <h3 class="solutions-subtitle subtitle">
+                            User interface design
+                        </h3>
+                        <p class="solutions-text text">
+                            Creating a clean, user-friendly interface is key to making 
+                            the platform intuitive and easy to use.
+                            <br><br>
+                            We designed user forms with easy readability and with well 
+                            thought-out drop-downs to capture estimates of underlying input variables.
+                        </p>
+                    </div>
+                    <img src="./images/solution_img3.png" width="850" height="760" alt="solution_img3" class="solution_img">    
+                </div>
+
+                <div class="solution-items">
+                    <img src="./images/solution_img4.png" width="850" height="760" alt="solution_img4" class="solution_img">    
+                    <div class="solution-text-block">
+                        <h3 class="solutions-subtitle subtitle">
+                            Cross-referencing and validation
+                        </h3>
+                        <p class="solutions-text text">
+                            We added cross-referencing with user data to ensure the 
+                            information provided is accurate while ensuring appropriate 
+                            input consistency to validate the accuracy of data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    </main>
 </body>
 </html>

@@ -19,3 +19,6 @@
 <path d="M13.459 27.316l-1.693-1.693 11.317-11.317 1.693 1.693-11.317 11.317z"></path>
 <path d="M11.761 6.389l1.702-1.702 11.313 11.313-1.702 1.702-11.313-11.313z"></path>
 </symbol>
+<symbol id="icon-ic_go" viewBox="0 0 34 32">
+<path fill="none" stroke="#0072ff" style="stroke: var(--color1, #0072ff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M5.6 27.2l22.4-22.4M28 4.8v19.2M28 4.8h-19.2"></path>
+</symbol>

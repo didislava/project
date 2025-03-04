@@ -1,5 +1,5 @@
 body {
-    width: 1440px;
+    width: 100%;
     color: #000000;
     background-color: pink;
     margin: 0;
@@ -10,6 +10,10 @@ ul {
     margin-top: 0px;
     margin-bottom: 0px;
     padding-left: 0px;
+}
+
+li {
+    list-style-type: none;
 }
 
 a {
@@ -29,8 +33,26 @@ h6 {
 
 .container {
     width: 100%;
-    padding: 0 15px;
     margin: 0 auto;
+
+}
+
+.title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 128%;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144%;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
 }
 
 /*________HEADER________*/
@@ -93,25 +115,202 @@ h6 {
 /*________HERO________*/
 
 .hero-container {
-    padding: 37px 40px;
-    margin: 0 auto;
     background-color: #DFF1FF;
     display: flex;
+    position: relative;
+    color:#000;
+
 }
 
 .vector-icon {
     stroke: #fff;
+    fill: #fff;
+}
+
+.breadcrumb {
+    display: flex;
+    position: absolute;
+    padding-top: 37px;
+    padding-left: 40px;
+    gap: 60px;
+}
+
+.breadcrumb-item {
+    width: auto;
+}
+
+.breadcrumb-text {
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
 }
 
 .hero-title {
-    padding: 273px 70px;
-    font-weight: 500;
-    font-size: 50px;
-    line-height: 128%;
     color: #000;
-    width: 540px;
+    width: 536px;
+    padding-top: 273px;
+    padding-left: 70px;
 }
 
 .main-page-img {
     padding-top: 150px;
+    padding-left: 90px;
+    padding-bottom: 196px;
 }
+
+/*________DESCRIPTION________*/
+
+.description-container {
+    background-color: #000;
+    position: relative;
+    color:#fff;
+    padding: 120px 70px;
+
+}
+
+.description-title {
+    width: 900px;
+}
+
+.description-text {
+    padding-top: 40px;
+    width: 800px;
+}
+
+.description-second-block {
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+    gap: 162px 0px;
+}
+
+.description-item {
+    width: 630px;
+}
+
+.grid-line {
+    border: none;
+    border-top: 1px solid white;
+    width: 1300px;
+    height: 2px;
+    margin: 80px 0; 
+}
+
+/*________BUSINESS_CONTEXT________*/
+
+.business-context-container {
+    background-color: #fff;
+    position: relative;
+    color:#000;
+    padding: 120px 70px;
+
+}
+
+.business-context-title{
+    padding-top: 20px;
+    width: 900px;
+}
+
+.business-context-content {
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.business-context-text {
+    width: 630px;
+}
+
+/*________PRODUCT_SCOPE________*/
+
+.product-scope-container {
+    padding: 0px 0px;
+    position: relative;
+    color: #fff;
+
+}
+
+.product-scope-first {
+    padding: 120px 70px;
+    background-image: url(../images/bg-top-black.png);
+    background-size: cover;
+}
+
+.product-scope-first-text {
+    padding-left: 608px;
+    padding-top: 80px;
+}
+
+.product-scope-second {
+    padding: 120px 180px;
+    background-image: url(../images/Group101.png);
+    background-size: cover;
+}
+
+.product-scope-second-title {
+    text-align: center;
+    width: 900px;
+}
+
+.product-scope-button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0072ff;
+    padding: 16px 10px;
+    width: 420px;
+    height: 56px;
+    background: #fff;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+/*________SOLUTIONS________*/
+
+.solutions-container {
+    background-color: #fff;
+    color: #000;
+    padding-top: 120px;
+    padding-left: 70px;
+}
+
+.solutions-text1 {
+    width: 630px;
+    padding-top: 40px;
+}
+
+.solutions-text2 {
+    width: 630px;
+    padding: 40px 670px 80px;
+}
+
+.solutions-second-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 140%;
+    width: 1080px;
+    margin-bottom: 80px;
+}
+
+.solution-items {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    gap: 70px;
+    padding-bottom: 70px;
+}
+
+.solutions-text {
+    width: 450px;
+}
+
+.solutions-text {
+    padding-top: 70px;
+
+}
+
