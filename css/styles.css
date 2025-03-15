@@ -182,7 +182,7 @@ h6 {
 .description-second-block {
     margin-top: 120px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Дві колонки */
+    grid-template-columns: repeat(2, 1fr);
     gap: 162px 0px;
 }
 
@@ -254,7 +254,7 @@ h6 {
     width: 900px;
 }
 
-.product-scope-button {
+.button {
     font-weight: 500;
     font-size: 18px;
     line-height: 133%;
@@ -268,6 +268,7 @@ h6 {
     background: #fff;
     margin-top: 40px;
     margin-left: 330px;
+    position: center;
 }
 
 /*________SOLUTIONS________*/
@@ -314,3 +315,109 @@ h6 {
 
 }
 
+/*________TECHNOLOGIES________*/
+
+.technologies-container {
+    background-color: #fff;
+    padding-top: 120px;
+    padding-left: 70px;
+    padding-bottom: 120px;
+}
+
+.technologies-description{
+    margin-top: 80px;
+
+}
+
+.technologies-description-first {
+    display: flex;
+    gap: 30px;
+}
+
+.technologies-description-title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133%;
+    color: #000;
+    width: 445px;
+}
+
+.technologies-description-text {
+    padding-top: 6px;
+}
+
+.technologies-description-second {
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+/*________CLIENT_TESTIMONIAL________*/
+
+.client-testimonial-container{
+    padding: 120px 70px;
+    background-image: url(../images/bg-top-black.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.client-testimonial-pretitle {
+    width: 1080px;
+
+}
+
+.client-testimonial-title {
+    width: 1080px;
+    margin-top: 20px;
+    margin-top: 20px;
+}
+
+.client-testimonial-content {
+    width: 1080px;
+    margin-top: 40px;
+}
+
+/*________RESULTS________*/
+
+.results-container {
+    background-color: #fff;
+    padding: 120px 70px;
+
+}
+
+.results-content {
+    padding-top: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.results-text {
+    width: 630px;
+}
+
+/*________PROJECTS________*/
+
+
+.projects-container {
+    padding: 120px 70px;
+    background-image: url(../images/bg-top-black.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.projects-button-title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 128%;
+    text-align: center;
+    width: 1080px;
+    margin-top: 760px;
+}
+
+/*________FOOTER________*/
+
+.footer-container {
+    background-color: #000;
+    padding: 120px 70px;
+
+}
