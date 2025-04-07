@@ -1,8 +1,20 @@
 body {
-    width: 100%;
+    width: 1440px;
     color: #000000;
     background-color: pink;
     margin: 0;
+}
+
+@font-face {
+    font-family: "IbmPlexMono";
+    src:
+        url("/fonts/IbmPlexMono/IBMPlexMono-Regular.ttf") format("woff");
+}
+
+@font-face {
+    font-family: "GeneralSans";
+    src:
+    url("/fonts/GeneralSans/GeneralSansMedium.woff2") format("woff2"),
 }
 
 ul {
@@ -32,27 +44,68 @@ h6 {
 }
 
 .container {
-    width: 100%;
     margin: 0 auto;
-
+    padding: 120px 70px;
 }
 
 .title {
     font-weight: 500;
     font-size: 50px;
     line-height: 128%;
+    font-family: "GeneralSans";
 }
 
 .text {
     font-weight: 400;
     font-size: 18px;
     line-height: 144%;
+    font-family: "IbmPlexMono";
 }
 
 .subtitle {
     font-weight: 500;
     font-size: 30px;
     line-height: 133%;
+    font-family: "GeneralSans";
+}
+
+.button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0072ff;
+    padding: 16px 10px;
+    width: 420px;
+    height: 56px;
+    background: #fff;
+    position: center;
+}
+
+.text-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+    font-family: "GeneralSans";
+}
+
+.title-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 137%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "GeneralSans";
+}
+
+.wrapper {
+    background-image: url(../images/wrapper-bg.png);
+    background-size: cover;
+
 }
 
 /*________HEADER________*/
@@ -63,7 +116,6 @@ h6 {
     margin: 0 auto ;
     display: flex; 
     align-items: center;
-    background-color: #DFF1FF;
 }
 
 .header-navigation {
@@ -102,20 +154,9 @@ h6 {
     color: black;
 }
 
-.plus-icon {
-    stroke: #000000;
-    color: #000000;
-}
-
-.arrow-icon {
-    stroke: #000000;
-    color: #000000;
-}
-
 /*________HERO________*/
 
 .hero-container {
-    background-color: #DFF1FF;
     display: flex;
     position: relative;
     color:#000;
@@ -166,8 +207,6 @@ h6 {
     background-color: #000;
     position: relative;
     color:#fff;
-    padding: 120px 70px;
-
 }
 
 .description-title {
@@ -204,8 +243,6 @@ h6 {
     background-color: #fff;
     position: relative;
     color:#000;
-    padding: 120px 70px;
-
 }
 
 .business-context-title{
@@ -226,16 +263,11 @@ h6 {
 /*________PRODUCT_SCOPE________*/
 
 .product-scope-container {
-    padding: 0px 0px;
     position: relative;
     color: #fff;
-
-}
-
-.product-scope-first {
-    padding: 120px 70px;
-    background-image: url(../images/bg-top-black.png);
+    background-image: url(../images/product-scope-bg.png);
     background-size: cover;
+
 }
 
 .product-scope-first-text {
@@ -244,31 +276,18 @@ h6 {
 }
 
 .product-scope-second {
-    padding: 120px 180px;
-    background-image: url(../images/Group101.png);
-    background-size: cover;
+    margin-top: 240px;
 }
 
 .product-scope-second-title {
     text-align: center;
-    width: 900px;
+    width: 1080px;
+    padding-left: 180px;
 }
 
-.button {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 133%;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #0072ff;
-    padding: 16px 10px;
-    width: 420px;
-    height: 56px;
-    background: #fff;
+.product-scope-button {
     margin-top: 40px;
-    margin-left: 330px;
-    position: center;
+    margin-left: 510px;
 }
 
 /*________SOLUTIONS________*/
@@ -276,8 +295,6 @@ h6 {
 .solutions-container {
     background-color: #fff;
     color: #000;
-    padding-top: 120px;
-    padding-left: 70px;
 }
 
 .solutions-text1 {
@@ -312,8 +329,9 @@ h6 {
 
 .solutions-text {
     padding-top: 70px;
-
 }
+
+
 
 /*________TECHNOLOGIES________*/
 
@@ -355,7 +373,6 @@ h6 {
 /*________CLIENT_TESTIMONIAL________*/
 
 .client-testimonial-container{
-    padding: 120px 70px;
     background-image: url(../images/bg-top-black.png);
     background-size: cover;
     color: #fff;
@@ -381,8 +398,6 @@ h6 {
 
 .results-container {
     background-color: #fff;
-    padding: 120px 70px;
-
 }
 
 .results-content {
@@ -399,10 +414,29 @@ h6 {
 
 
 .projects-container {
-    padding: 120px 70px;
     background-image: url(../images/bg-top-black.png);
     background-size: cover;
     color: #fff;
+}
+
+.project-pictures {
+    display: flex; 
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.project-pct-1 {
+    padding-top: 40px;
+}
+
+.project-pct-2 {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.project-button {
+    margin-top: 40px;
+    margin-left: 510px;
 }
 
 .projects-button-title {
@@ -411,13 +445,55 @@ h6 {
     line-height: 128%;
     text-align: center;
     width: 1080px;
-    margin-top: 760px;
+    padding-left: 180px;
 }
 
 /*________FOOTER________*/
 
+.block {
+    width: 300px;
+}
+
+.item {
+    padding-bottom: 10px;
+}
+
 .footer-container {
     background-color: #000;
-    padding: 120px 70px;
+}
 
+.first-line-list {
+    display: flex;
+    position: absolute;
+    gap: 30px;
+}
+
+.logo-img {
+    margin-bottom: 15px;
+}
+
+.information-text {
+    margin-bottom: 30px;
+}
+
+.title-list {
+    padding-bottom: 15px;
+}
+
+.e-mail {
+    padding-bottom: 40px;
+}
+
+.second-line {
+    display: inline-flex;
+}
+
+.second-line-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 960px;
+}
+
+.title-list {
 }
