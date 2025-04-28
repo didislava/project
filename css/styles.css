@@ -1,5 +1,4 @@
 body {
-    width: 1440px;
     color: #000000;
     background-color: pink;
     margin: 0;
@@ -121,6 +120,8 @@ h6 {
 .header-navigation {
     display: flex;
     align-items: center;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .logo {
@@ -133,7 +134,7 @@ h6 {
     gap: 30px;
     color:#2e2f42;
 
-    padding: 24px 40px 24px 512px;
+    padding: 24px 0px 24px 0px;
 }
 
 .header-menu-item {
@@ -303,7 +304,6 @@ h6 {
 }
 
 .solutions-text2 {
-    width: 630px;
     padding: 40px 670px 80px;
 }
 
