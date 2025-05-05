@@ -298,6 +298,10 @@ h6 {
     color: #000;
 }
 
+.solution-text-container-1 {
+    padding: 120px 70px 80px;
+}
+
 .solution-container-text1 {
     display: flex;
     flex-direction: row-reverse;
@@ -305,12 +309,12 @@ h6 {
 }
 
 .solutions-text1 {
-    width: 630px;
     padding-top: 40px;
+    margin-bottom: 40px;
 }
 
 .solutions-text2 {
-    padding: 40px 670px 80px;
+    margin-left: 670px;
 }
 
 .solutions-second-title {
@@ -318,7 +322,8 @@ h6 {
     font-size: 40px;
     line-height: 140%;
     width: 1080px;
-    margin-bottom: 80px;
+    padding: 40px 70px;
+
 }
 
 .solution-items {
@@ -326,7 +331,9 @@ h6 {
     position: relative;
     justify-content: space-between;
     gap: 70px;
+    padding: 0;
     padding-bottom: 70px;
+    
 }
 
 .solutions-text {
@@ -335,6 +342,14 @@ h6 {
 
 .solutions-text {
     padding-top: 70px;
+}
+
+.right-pct {
+    padding-left: 70px;
+}
+
+.left-pct {
+    padding-right: 70px;
 }
 
 
@@ -456,10 +471,6 @@ h6 {
 
 /*________FOOTER________*/
 
-.block {
-    width: 300px;
-}
-
 .item {
     padding-bottom: 10px;
 }
@@ -468,10 +479,18 @@ h6 {
     background-color: #000;
 }
 
+.first-line {
+    padding-bottom: 40px;
+}
+
 .first-line-list {
     display: flex;
-    position: absolute;
-    gap: 30px;
+    gap: 114px;
+}
+
+.text-container{
+    gap: 230px;
+    display: flex;
 }
 
 .logo-img {
@@ -492,6 +511,9 @@ h6 {
 
 .second-line {
     display: inline-flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 100px;
 }
 
 .second-line-list {
@@ -501,5 +523,11 @@ h6 {
     max-width: 960px;
 }
 
-.title-list {
+.third-line {
+    padding-top: 40px;
+}
+
+.third-line-list {
+    display: inline-flex;
+    gap: 154px;
 }
